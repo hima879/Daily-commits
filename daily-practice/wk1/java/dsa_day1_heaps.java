@@ -23,5 +23,17 @@ public class dsa_day1_heaps {
             if (topK.size() > k) topK.poll();
         }
         System.out.println("Top " + k + ": " + topK);
+
+        System.out.println("\n=== 4. HEAP SORT ===");
+        int[] arr = {4, 10, 3, 5, 1};
+        PriorityQueue<Integer> heapSort = new PriorityQueue<>();
+        for (int num : arr) {
+            heapSort.add(num);
+        }
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = heapSort.poll();
+        }
+        System.out.println("Sorted array: " + Arrays.toString(arr));        
+
     }
 }
