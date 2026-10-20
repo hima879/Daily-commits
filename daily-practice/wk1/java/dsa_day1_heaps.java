@@ -34,6 +34,6 @@ public class dsa_day1_heaps {
             arr[i] = heapSort.poll();
         }
         System.out.println("Sorted array: " + Arrays.toString(arr));        
-
+        System.out.println(heapSort);
     }
 }
