@@ -1,0 +1,5 @@
+{
+    "dataset": "wine",
+    "knn_accuracy": 0.9722,
+    "kmeans_ari": 0.8975
+}
